@@ -80,3 +80,39 @@ function showSlides() {
 }
 
 showSlides();
+
+// Contact api
+const form = document.getElementById("contact-form");
+const alertBox = document.getElementById("alert");
+
+form.addEventListener("submit", async (e) => {
+    e.preventDefault();
+
+    const data = {
+        name: document.getElementById("name").value,
+        email: document.getElementById("email").value,
+        message: document.getElementById("message").value
+    };
+
+    try {
+        const response = await fetch("http://127.0.0.1:8000/api/contact/", {
+            method: "POST",
+            headers: {
+                "Content-Type": "application/json"
+            },
+            body: JSON.stringify(data)
+        });
+
+        if (response.ok) {
+            alertBox.innerText = "Message sent successfully!";
+            alertBox.style.display = "block";
+            form.reset();
+        } else {
+            alertBox.innerText = "Failed to send message.";
+            alertBox.style.display = "block";
+        }
+    } catch (error) {
+        alertBox.innerText = "Server error. Try again later.";
+        alertBox.style.display = "block";
+    }
+});

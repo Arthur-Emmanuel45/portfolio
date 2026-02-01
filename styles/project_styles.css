@@ -27,7 +27,7 @@
     display: flex;
     justify-content: center;
     gap: 15px;
-    padding-top: 10%;
+    padding-top: 5%;
     color: #fff;
 }
 .project-details, .project-img, .education-details, .education-img {
@@ -39,7 +39,7 @@
     width: 100%;
     height: 100%;
 }
-h7 {
+h5 {
     font-size: 2em;
     font-weight: bolder;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -68,6 +68,13 @@ h7 {
 .project-details button:hover {
     background-color: #004f99d2;
     cursor: pointer;
+}
+.rule {
+    width: 80%;
+    height: 2px;
+    color: #000;
+    margin:0 auto;
+    margin-top: 50px;
 }
 footer {
     margin-top: 5%;
