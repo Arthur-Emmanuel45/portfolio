@@ -3,7 +3,7 @@
     padding: 5% 10%;
     margin-top: 2%;
 }
-h8 {
+.edu-header {
     font-size: 3em;
     font-weight: bold;
 }
@@ -38,4 +38,8 @@ i.fa.fa-arrow-down {
 #education-img {
     width: 90%;
     height: auto;
+}
+.edu-detail-header {
+    font-size: 1.2em;
+    font-weight: 600;
 }

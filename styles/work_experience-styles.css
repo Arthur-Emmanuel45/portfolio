@@ -3,7 +3,7 @@
     padding: 5% 10%;
     margin-top: 2%;
 }
-h8 {
+.p-h8 {
     font-size: 3em;
     font-weight: bold;
 }
@@ -18,18 +18,18 @@ h8 {
     padding: 5% 0;
     color: #fff;
 }
-h9 {
+.p-h9 {
     margin: 0;
     font-size: 2.5em;
 }
-h11 {
+.p-h11 {
     font-size: 1.5em;
     font-weight: bolder;
 }
 .work-date {
     margin: 2px;
     font-style: italic;
-    color: #000;
+    color: #757575;
     font-size: 15px;
 }
 .work-title {
@@ -74,7 +74,7 @@ h11 {
     height: auto;
     margin-top: 50px;
 }
-h10 {
+.p-h10 {
     background-color: #fff;
     margin: auto;
     padding: 10px;
@@ -91,7 +91,7 @@ h10 {
     .skill div {
         width: 30%;
     }
-    h10 {
+    .p-h10 {
         font-size: 19px;
         padding: 3px;
     }
@@ -100,10 +100,10 @@ h10 {
     #work-experience-header {
         padding: 3%;
     }
-    h8, h9 {
+    .p-h8, .p-h9 {
         font-size: 1.5em;
     }
-    h11 {
+    .p-h11 {
         font-size: 1.5em;
     }
     .dutie-list {
