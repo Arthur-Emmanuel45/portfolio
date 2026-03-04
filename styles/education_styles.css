@@ -42,4 +42,5 @@ i.fa.fa-arrow-down {
 .edu-detail-header {
     font-size: 24px;
     font-weight: 600;
+    border-bottom: 1px solid #fff;
 }
